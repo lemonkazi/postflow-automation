@@ -1,0 +1,102 @@
+[
+  {
+    "text": "What's the one piece your wardrobe needs?\n\nPrice: $19.99\nShop: https://example.com/product/1",
+    "image_path": "data/composed/composed_1.png",
+    "product": {
+      "title": "Stylish Minimal Tee",
+      "price": "$19.99",
+      "link": "https://example.com/product/1",
+      "image": "https://example.com/product/1.jpg"
+    }
+  },
+  {
+    "text": "Shhh... Your next style obsession just dropped.\n\nPrice: $59.99\nShop: https://example.com/product/2",
+    "image_path": "data/composed/composed_2.png",
+    "product": {
+      "title": "Casual Denim Jacket",
+      "price": "$59.99",
+      "link": "https://example.com/product/2",
+      "image": "https://example.com/product/2.jpg"
+    }
+  },
+  {
+    "text": "Elevate your look instantly. Discover how.\n\nPrice: $29.99\nShop: https://example.com/product/3",
+    "image_path": "data/composed/composed_3.png",
+    "product": {
+      "title": "Leather Wallet",
+      "price": "$29.99",
+      "link": "https://example.com/product/3",
+      "image": "https://example.com/product/3.jpg"
+    }
+  },
+  {
+    "text": "Ready to turn heads? See our secret.\n\nPrice: $19.99\nShop: https://example.com/product/1",
+    "image_path": "data/composed/composed_4.png",
+    "product": {
+      "title": "Stylish Minimal Tee",
+      "price": "$19.99",
+      "link": "https://example.com/product/1",
+      "image": "https://example.com/product/1.jpg"
+    }
+  },
+  {
+    "text": "Is your closet missing THIS essential?\n\nPrice: $59.99\nShop: https://example.com/product/2",
+    "image_path": "data/composed/composed_5.png",
+    "product": {
+      "title": "Casual Denim Jacket",
+      "price": "$59.99",
+      "link": "https://example.com/product/2",
+      "image": "https://example.com/product/2.jpg"
+    }
+  },
+  {
+    "text": "A whisper of luxury. Find your new favorite.\n\nPrice: $29.99\nShop: https://example.com/product/3",
+    "image_path": "data/composed/composed_6.png",
+    "product": {
+      "title": "Leather Wallet",
+      "price": "$29.99",
+      "link": "https://example.com/product/3",
+      "image": "https://example.com/product/3.jpg"
+    }
+  },
+  {
+    "text": "Beyond basic. Experience true style.\n\nPrice: $19.99\nShop: https://example.com/product/1",
+    "image_path": "data/composed/composed_7.png",
+    "product": {
+      "title": "Stylish Minimal Tee",
+      "price": "$19.99",
+      "link": "https://example.com/product/1",
+      "image": "https://example.com/product/1.jpg"
+    }
+  },
+  {
+    "text": "Unbox your next statement piece. Coming soon.\n\nPrice: $59.99\nShop: https://example.com/product/2",
+    "image_path": "data/composed/composed_8.png",
+    "product": {
+      "title": "Casual Denim Jacket",
+      "price": "$59.99",
+      "link": "https://example.com/product/2",
+      "image": "https://example.com/product/2.jpg"
+    }
+  },
+  {
+    "text": "What's your secret weapon for effortless chic?\n\nPrice: $29.99\nShop: https://example.com/product/3",
+    "image_path": "data/composed/composed_9.png",
+    "product": {
+      "title": "Leather Wallet",
+      "price": "$29.99",
+      "link": "https://example.com/product/3",
+      "image": "https://example.com/product/3.jpg"
+    }
+  },
+  {
+    "text": "The wait is over. Redefine your style.\n\nPrice: $19.99\nShop: https://example.com/product/1",
+    "image_path": "data/composed/composed_10.png",
+    "product": {
+      "title": "Stylish Minimal Tee",
+      "price": "$19.99",
+      "link": "https://example.com/product/1",
+      "image": "https://example.com/product/1.jpg"
+    }
+  }
+]

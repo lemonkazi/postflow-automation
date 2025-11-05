@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  kjc:
+    build: .
+    command: tail -f /dev/null
+    container_name: kjc_automation
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./images.txt:/app/images.txt
+      - ./supplier_sample.csv:/app/supplier_sample.csv
+      - ./kjc_cli:/app/kjc_cli
+      - ./main.py:/app/main.py
+    restart: unless-stopped

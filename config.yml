@@ -1,0 +1,13 @@
+# Basic configuration for KJC Automation
+image:
+  default_font: "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+  font_size: 48
+  composed_width: 1200
+  composed_height: 1200
+
+posts:
+  posts_per_day: 10
+  rotate_logo: true
+
+logging:
+  level: INFO
