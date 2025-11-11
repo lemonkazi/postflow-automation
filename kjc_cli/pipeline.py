@@ -11,6 +11,7 @@ from kjc_cli.modules import (
     product_importer,
     content_assembler,
     buffer_poster,
+    zapier_poster,
     monitor,
 )
 
@@ -21,11 +22,12 @@ def run_pipeline():
     logger.info("Starting full run of KJC Threads Automation pipeline")
     try:
         background_collector.run_collect()
-        # hooks = hook_generator.run_generate()
+        hooks = hook_generator.run_generate()
         # products = product_importer.run_import()
-        # composed_images = image_composer.run_compose(hooks)
+        composed_images = image_composer.run_compose(hooks)
         # posts = content_assembler.run_assemble(hooks, composed_images, products)
         #buffer_poster.run_post_many(posts)
+        #zapier_poster.run_post_many(posts)
         monitor.log_event("Full run completed", status="SUCCESS")
         logger.info("Full run completed successfully.")
     except Exception as e:

@@ -38,7 +38,10 @@ POSTS_PER_DAY = int(os.getenv("DEFAULT_POSTS_PER_DAY", _cfg.get("posts", {}).get
 
 # image compose defaults
 IMAGE_CFG = _cfg.get("image", {})
-FONT_PATH = IMAGE_CFG.get("default_font", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf")
-FONT_SIZE = IMAGE_CFG.get("font_size", 48)
+# In your .env file
+FONT_PATH = IMAGE_CFG.get("default_font", "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc")
+#DEFAULT_FONT_PATH=/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+#FONT_PATH = IMAGE_CFG.get("default_font", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf")
+FONT_SIZE = IMAGE_CFG.get("font_size", 56)
 COMPOSED_WIDTH = IMAGE_CFG.get("composed_width", 1200)
 COMPOSED_HEIGHT = IMAGE_CFG.get("composed_height", 1200)
