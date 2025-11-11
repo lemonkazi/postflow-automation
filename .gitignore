@@ -7,3 +7,8 @@ __pycache__/
 dist/
 build/
 .env
+data/backgrounds/*
+data/composed/*
+data/hooks/*
+events.log
+kjc.log
